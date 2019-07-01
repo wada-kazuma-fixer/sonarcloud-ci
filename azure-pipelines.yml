@@ -14,7 +14,7 @@ variables:
 
 steps:
 - task: DotNetCoreCLI@2
+  displayName: 'dotnet build'
   inputs:
     command: 'build'
     projects: 'SonarCloudTest/**/*.csproj'
-    arguments: '--buildConfiguration Release'
