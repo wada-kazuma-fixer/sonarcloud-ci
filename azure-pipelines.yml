@@ -17,4 +17,4 @@ steps:
   displayName: 'dotnet build'
   inputs:
     command: 'build'
-    projects: 'SonarCloudTest/**/*.csproj'
+    projects: 'SonarCloudTest/*/*.csproj'
